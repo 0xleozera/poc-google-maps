@@ -14,7 +14,7 @@ export interface MapPreviewProps {
 }
 
 export const MapPreview = ({
-  zoom = 12,
+  zoom = 4,
   center,
   marker,
   radius,

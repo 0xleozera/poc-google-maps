@@ -1,16 +1,21 @@
 import { useState } from 'react'
 
-import { InputAddress, InputRadius, Map } from './components'
+import { useMap } from './hooks/useMap'
+import { InputAddressWithHook, InputRadius, Map } from './components'
 
 const App = () => {
-  const [address, setAddress] = useState<string | null>(null)
-  const [radius, setRadius] = useState(5)
+  const { coordinates, places, handleSelectPlace } = useMap()
+  const [radius, setRadius] = useState(0)
 
   return (
     <>
-      <InputAddress address={address} onAddressChange={setAddress} />
+      <InputAddressWithHook {...places} handleSelect={handleSelectPlace} />
       <InputRadius radius={radius} onRadiusChange={setRadius} />
-      <Map center={{ lat: 40.64, lng: -73.96 }} />
+      <Map
+        center={{ lat: -14.24, lng: -53.18 }}
+        marker={coordinates}
+        radius={radius * 1000}
+      />
     </>
   )
 }

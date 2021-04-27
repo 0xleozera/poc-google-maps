@@ -1947,6 +1947,11 @@
   resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.44.3.tgz#f0e1eb9f96576dd86ef06e885a04de4f1c7aa228"
   integrity sha512-VsVQS3lvl/JFD1uGG0x3EVIbvmLQUEGuJNcd4sPXiPf6oHxUx2EJfQTqI+Liuhe9nLDl0e864NIq2K4WzfdcGQ==
 
+"@types/googlemaps@^3.43.3":
+  version "3.43.3"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.43.3.tgz#70cf962154a160fe78bcd69d6ccc296dd9175b1f"
+  integrity sha512-ZWNoz/O8MPEpiajvj7QiqCY8tTLFNqNZ/a+s+zTV58wFVNAvvqV4bdGfnsjTb5Cs4V6wEsLrX8XRhmnyYJ2Tdg==
+
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
@@ -9632,6 +9637,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-cool-onclickoutside@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-cool-onclickoutside/-/react-cool-onclickoutside-1.6.1.tgz#5a03815d09bb7f65585f11cf841d56004beb09a1"
+  integrity sha512-8vt8+aAO+MWUjWUM0oBPAllVWDR62nasjnOl6PQ3si4h4hjAxXvfOpctwunSqgCCxjwHJe0ooDmwt16ejtW+EQ==
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -11710,6 +11720,11 @@ use-debounce@^3.4.3:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/use-debounce/-/use-debounce-3.4.3.tgz#5df9322322b3f1b1c263d46413f9facf6d8b56ab"
   integrity sha512-nxy+opOxDccWfhMl36J5BSCTpvcj89iaQk2OZWLAtBJQj7ISCtx1gh+rFbdjGfMl6vtCZf6gke/kYvrkVfHMoA==
+
+use-places-autocomplete@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/use-places-autocomplete/-/use-places-autocomplete-1.9.1.tgz#b924ca06f545aa80e9f025aab61d9514c814ed2b"
+  integrity sha512-ZIkCob6qFBT5kP5wvtiDHV2Dw+DjlVSOj8RoM0XRkDB95PPQzICTjWHOhe4ClY0gO2Nq1bFG5K2WfIYYlIYtfg==
 
 use@^3.1.0:
   version "3.1.1"
