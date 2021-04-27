@@ -3,4 +3,4 @@ module.exports = {
   semi: false,
   trailingComma: 'all',
   allowParens: 'avoid',
-};
+}
